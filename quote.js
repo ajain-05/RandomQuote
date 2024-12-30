@@ -101,4 +101,4 @@ function quoteGenerator(){
     element.textContent = quotes[index]
 }
 
-setInterval(quoteGenerator,1000)    
+setInterval(quoteGenerator,1500)    
