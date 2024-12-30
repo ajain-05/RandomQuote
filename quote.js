@@ -93,7 +93,8 @@ function quoteGenerator(){
     let index1 = Math.floor(Math.random()*256);
     let index2 = Math.floor(Math.random()*256);
     let index3 = Math.floor(Math.random()*256);
-    background.style.backgroundColor = `rgb(${index1},${index2},${index3})` 
+    let index4 = Math.random();
+    background.style.backgroundColor = `rgba(${index1},${index2},${index3},${index4})` 
 
     let index = Math.floor(Math.random()*quotes.length);  
     const element = document.querySelector('p');
